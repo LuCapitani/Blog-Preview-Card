@@ -3,7 +3,7 @@
     --White: hsl(0, 0%, 100%);
     --Gray500: hsl(0, 0%, 42%);
     --Gray950: hsl(0, 0%, 7%);
-    --paragraph: 1rem
+    --paragraph: 1rem;
     
 }
 
@@ -33,7 +33,7 @@
     padding: 24px;
     width: 100%;
     gap: 24px;
-    height: 522px;
+    height: auto;
     border-radius: 20px;
     background-color: var(--White);
     border: solid 1px var(--Gray950);
