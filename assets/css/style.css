@@ -3,7 +3,8 @@
     --White: hsl(0, 0%, 100%);
     --Gray500: hsl(0, 0%, 42%);
     --Gray950: hsl(0, 0%, 7%);
-    --paragraph: 16px
+    --paragraph: 1rem
+    
 }
 
 * {
@@ -14,11 +15,14 @@
 
 .main-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     min-height: 100vh;
+    padding: 24px;
     background-color: var(--Yellow);
+    font-family: figtree, sans-serif;
 }
 
 .card{
@@ -28,6 +32,7 @@
     max-width: 384px;
     padding: 24px;
     width: 100%;
+    gap: 24px;
     height: 522px;
     border-radius: 20px;
     background-color: var(--White);
@@ -35,23 +40,66 @@
     box-shadow: 8px 8px 0px 0px var(--Gray950);
 }
 .card-imagem{
+    display: block;
     max-width: 336px;
     width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
-.card-category{
+.card-content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 12px;
 }
 .category{
     padding: 4px 12px;
     width: fit-content;
-    font-family: figtree, sans-serif;
     font-weight: 800;
     font-size: 0.875rem;
     border-radius: 4px;
     color: var(--Gray950);
     background-color: var(--Yellow);
+}
+.published-date{
+    font-size: 0.875rem;
+    color: var(--Gray950);
+    font-weight: 500;
+}
+.title-card{
+    font-weight: 800;
+    color: var(--Gray950);
+    font-size: 1.25rem;
+}
+.paragrafh-description{
+    font-size: var(--paragraph);
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--Gray500);
+}
+.author-photo{
+    width: 32px;
+    height: 32px;
+}
+.card-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 800;
+    gap: 12px;
+}
+.title-card:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+}
+.credits{
+    margin-top: 24px;
+    font-size: 0.875rem;
+    color: var(--Gray950);
+}
+.credits a{
+    color: var(--Gray950);
+    font-weight: 800;
+    text-decoration: none;
 }
