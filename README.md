@@ -1,58 +1,94 @@
-# Frontend Mentor - Blog Preview Card solution
+# Blog Preview Card - Frontend Mentor
 
-This is a solution to the [Blog Preview Card challenge on Frontend Mentor](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3d00/start). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+---
 
-## Table of contents
+![Design preview for Blog Preview Card challenge](/assets/images/desktop-design.jpg)
+
+## Table of Contents
 
 - [Overview](#overview)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+  - [Challenge](#challenge)
+  - [Screenshot](#screenshot)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
 - [Author](#author)
 
+---
 
 ## Overview
 
+### Challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size (mobile and desktop)
+- See hover and active states for interactive elements (card and button)
+- View the blog card with proper spacing, typography, and border-radius
+
+---
+
+### Screenshot
+
+**Desktop Version**
+
+![Design preview for Blog Preview Card desktop](/assets/images/desktop-design.jpg)
+
+---
+
+**Mobile Version**
+
+![Design preview for Blog Preview Card mobile](/assets/images/mobile-design.jpg)
+
+---
+
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/LuCapitani/Blog-Preview-Card)
-- Live Site URL: [Projeto Blog Preview Card](https://lucapitani.github.io/Blog-Preview-Card/)
+- **Solution URL:** https://github.com/LuCapitani/Blog-Preview-Card
+- **Site URL:** https://lucapitani.github.io/Blog-Preview-Card/
 
-## My process
+---
 
-### Built with
+## My Process
 
-- Semantic HTML5 markup
-- CSS custom properties (Variáveis)
-- Flexbox
+### Built With
+
+- Semantic HTML5
+- CSS (Flexbox / Responsive Design)
 - Mobile-first workflow
+- CSS custom properties (variables)
+- Google Fonts (Figtree)
 
-### What I learned
+---
 
-Since I was already familiar with the technical requirements, my focus for this project was on **professional workflow** and **design fidelity**. 
+### What I Learned
 
-Key points reinforced:
-- **Design-to-Code Precision:** Implementing a project strictly following a `style-guide.md` to ensure the final result matches the original prototype.
-- **Maintainable CSS:** Using CSS variables (`:root`) for better scalability and easier theme management.
-- **Industry Standards:** Applying English naming conventions for classes and variables, following global development patterns.
+- Creating responsive card layouts with Flexbox
+- Using CSS custom properties in `:root` for maintainable styles
+- Implementing hover states on interactive elements
+- Applying `:focus-visible` for better accessibility
+- Following a `style-guide.md` to ensure design fidelity
 
+---
 
-### Useful resources
-- [Github Pages](https://docs.github.com/pt/pages) - Used for hosting the live site. It's an incredibly fast and efficient way to deploy static projects.
-- [Cloudflare Workers](https://workers.cloudflare.com/) - Used for hosting the live site. It's an incredibly fast and efficient way to deploy static projects.
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - My go-to reference for checking CSS property details and ensuring cross-browser compatibility.
-- [Notion](https://www.notion.so) - I used Notion to create a Kanban board and manage my development tasks. This helped me stay organized and ensure all project requirements and accessibility checks were met.
+### Continued Development
 
+- Add more interactive states for keyboard navigation
+- Refactor CSS for better maintainability
+- Experiment with CSS Grid for future layouts
+- Improve accessibility with ARIA attributes
 
-### AI Collaboration
-
-I used **Gemini** as a development partner to optimize my process:
-- **Task Management:** Structuring a Kanban board in Notion to track development stages.
-- **Code Review:** Double-checking accessibility and naming conventions.
-- **Workflow Efficiency:** Using AI to brainstorm the most efficient way to document the project and manage Git commits.
+---
 
 ## Author
 
-- Frontend Mentor - [@LuCapitani](https://www.frontendmentor.io/profile/LuCapitani)
+- GitHub: [LuCapitani](https://github.com/LuCapitani)
+- Frontend Mentor: [LuCapitani](https://www.frontendmentor.io/profile/LuCapitani)
+
+---
+
+## Acknowledgments
+
+Thanks to Frontend Mentor for providing real-world design challenges and to the community for inspiration and feedback.
